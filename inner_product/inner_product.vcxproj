@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C736A041-F705-45F8-9052-8F734E9E87E8}</ProjectGuid>
+    <ProjectGuid>{631623AF-B42D-4635-A81C-95ABA311DAEF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>accumulate</RootNamespace>
+    <RootNamespace>inner_product</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="accumulateMain.cpp" />
+    <ClCompile Include="inner_productMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
